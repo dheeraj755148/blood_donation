@@ -1,0 +1,33 @@
+aside {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  background-color: #252323;
+
+  .menu-items {
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    transition: all 0.25s ease-in-out;
+    border-radius: 5px;
+    a {
+      padding: 10px;
+      transition: all 0.25s ease-in-out;
+      text-decoration: none;
+      color: white;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #d14141;
+        color: white;
+        box-shadow: rgba(178, 178, 185, 0.2) 0px 7px 29px 0px;
+      }
+    }
+  }
+  .main-heading {
+    margin-bottom: 50%;
+  }
+}

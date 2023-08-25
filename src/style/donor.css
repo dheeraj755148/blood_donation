@@ -1,0 +1,16 @@
+.header-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-area .list-heading {
+  margin-top: 20px;
+}
+.header-area .button-area {
+  display: flex;
+  justify-content: end;
+}
+
+.table-area {
+  margin-top: 20px;
+}/*# sourceMappingURL=donor.css.map */

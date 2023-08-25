@@ -1,0 +1,39 @@
+nav {
+  background-color: #F6F8F9 !important;
+  border-bottom: 1px solid #DBDADB;
+}
+
+.link-to-page {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.615);
+  cursor: pointer;
+  transition: 0.25s ease-in-out all;
+}
+.link-to-page:hover {
+  color: black;
+}
+
+.profile-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-items .user-profile, .profile-items .logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.profile-items .user-profile p, .profile-items .user-profile a, .profile-items .logout p, .profile-items .logout a {
+  margin: 0;
+  margin-right: 4px;
+  text-decoration: none;
+  color: black;
+  transition: 0.25s all ease-in-out;
+}
+.profile-items .user-profile p:hover, .profile-items .user-profile a:hover, .profile-items .logout p:hover, .profile-items .logout a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=nav.css.map */

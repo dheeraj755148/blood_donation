@@ -1,0 +1,20 @@
+.home-page {
+  display: flex;
+  //background-color: #F6F8F9;
+  //margin-top: 40px;
+  //align-items: center;
+  .action-area {
+    button {
+      background: none;
+      outline: none;
+      margin-right: 5px;
+      border: none;
+      .bi-pen {
+        fill: #3498db;
+      }
+      .bi-trash {
+        fill: #c0392b;
+      }
+    }
+  }
+}

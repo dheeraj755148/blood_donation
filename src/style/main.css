@@ -1,0 +1,20 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  display: flex;
+}
+
+.side-bar {
+  flex: 0 0 250px; /* Set a fixed width for the sidebar */
+  background-color: #252323;
+  color: white;
+  height: 100vh; /* Make the sidebar take the full height of the viewport */
+}
+
+.main-section {
+  flex: 1; /* Let the main section take the remaining width */
+  background-color: #F6F8F9;
+  overflow-y: auto; /* Allow content to scroll if it overflows */
+}/*# sourceMappingURL=main.css.map */

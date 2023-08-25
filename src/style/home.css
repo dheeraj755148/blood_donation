@@ -1,0 +1,15 @@
+.home-page {
+  display: flex;
+}
+.home-page .action-area button {
+  background: none;
+  outline: none;
+  margin-right: 5px;
+  border: none;
+}
+.home-page .action-area button .bi-pen {
+  fill: #3498db;
+}
+.home-page .action-area button .bi-trash {
+  fill: #c0392b;
+}/*# sourceMappingURL=home.css.map */

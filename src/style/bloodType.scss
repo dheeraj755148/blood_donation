@@ -1,0 +1,80 @@
+.blood-type-area {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* background: white; */
+  margin: 0 auto;
+  margin-top: 40px !important;
+  padding: 20px 60px;
+  /* border-radius: 15px; */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  margin-top: 40px;
+  .heading-container {
+    flex: 0 0 100%; /* Take up full width */
+    display: flex;
+    justify-content: space-between; /* Align heading and content to opposite sides */
+    align-items: center;
+    margin-bottom: 10px; /* Add some space between heading and content */
+    color: #6f6f6f;
+  }
+}
+.blood-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  //box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+  background: white;
+  padding: 13px 20px;
+  transition: all 0.25s ease-in-out;
+  /* border-right: 1px solid #e5e7e9; */
+  &:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: translateY(-5px);
+    cursor: default;
+  }
+  .image-area {
+    padding: 10px;
+    img {
+      width: 50px;
+      height: 60px;
+    }
+  }
+  .count-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .count {
+      font-weight: 600;
+      font-size: x-large;
+    }
+    .pouch {
+      font-weight: 200;
+      font-size: small;
+      color: #c2c3c3;
+    }
+  }
+}
+.last-blood-count {
+  border-right: none;
+}
+
+/* .blood-count:last-child{
+    border-right: none;
+} */
+
+.blood-type-area {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap to the next row */
+}
+
+.blood-count {
+  flex: 0 0 calc(25% - 10px); /* Adjust the width as needed */
+  /* Other styles for the blood-count element */
+}
+
+.last-blood-count {
+  flex-basis: 100%; /* Make the last element take up full width */
+}

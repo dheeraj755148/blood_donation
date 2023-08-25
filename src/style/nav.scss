@@ -1,0 +1,38 @@
+nav{
+  background-color: #F6F8F9 !important;
+  border-bottom: 1px solid #DBDADB;
+}
+.link-to-page {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.615);
+  cursor: pointer;
+  transition: 0.25s ease-in-out all;
+  &:hover {
+    color: black;
+  }
+}
+
+.profile-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .user-profile,.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    p,a {
+      margin: 0;
+      margin-right: 4px;
+      text-decoration: none;
+      color: black;
+      transition: 0.25s all ease-in-out;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}

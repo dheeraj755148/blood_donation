@@ -1,0 +1,15 @@
+.header-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .list-heading{
+        margin-top: 20px;
+    }
+    .button-area{
+        display: flex;
+        justify-content: end;
+    }
+}
+.table-area{
+    margin-top: 20px;
+}
