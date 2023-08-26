@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-export const BASE_URL = 'http://localhost:9000/'
+//export const BASE_URL = 'http://localhost:9000/'
+export const BASE_URL = 'https://bloodonation.onrender.com'
 
 export const authApi = axios.create({
   baseURL: BASE_URL,
@@ -22,5 +23,4 @@ export const axiosEditDonor = async (data) => {
 }
 export const axiosDeleteDonor = async (data) => {
   return await authApi.post('delete-donor', data)
-
 }

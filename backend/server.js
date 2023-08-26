@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 app.use(cors())
 app.use(morgan('dev'))
 
-const port = 9000
+const port = process.env.PORT || 9000
 
 mongoose.connect(process.env.DB_URL_NET, {}, (err) => {
   if (err) {

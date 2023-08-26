@@ -6,6 +6,7 @@ const {
   edit_donor,
   delete_donor,
 } = require('../lib/user_functions')
+const { routes } = require('../server')
 const route = express.Router()
 
 route.post('/user-login', async (req, res) => {
@@ -36,6 +37,12 @@ route.post('/edit-donor', async (req, res) => {
 route.post('/delete-donor', async (req, res) => {
   //console.log('req ', req)
   const { err, msg } = await delete_donor(req.body.id)
+  res.status(200).send({ err, msg })
+})
+
+route.get('/testing', async (req, res) => {
+  //console.log('req ', req)
+  const { err, msg } = await get_donor()
   res.status(200).send({ err, msg })
 })
 
